@@ -11,7 +11,7 @@ body{
     align-items: center;
     object-position: center;
     justify-content: center;
-    height: 1vh;
+    height: 30px;
     border-bottom: 1px solid rgb(227, 227, 227);
     content: '';
     position: fixed;
@@ -76,14 +76,14 @@ body{
 
 @media screen and (max-width: 500px) {
     .Header{
-        padding: 5px;
+        padding: 1px;
     }
     .Header a{
-        font-size: 14px;
+        font-size: 12px;
         padding: 5px 8px;
     }
     .vertical-line{
-        height: 10px;
+        height: 8px;
         margin: 0, 3px;
     }
 }
