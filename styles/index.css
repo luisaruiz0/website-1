@@ -70,10 +70,20 @@ body{
     text-align: center;
  
 }
+.img-design{
+
+}
 
 @media screen and (max-width: 500px) {
+    .Header{
+        padding: 5px;
+    }
     .Header a{
-        display: block;
-        text-align: left;
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+    .vertical-line{
+        height: 10px;
+        margin: 0, 3px;
     }
 }
