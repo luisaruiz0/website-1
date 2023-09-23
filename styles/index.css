@@ -2,24 +2,24 @@ body{
     margin: 0;
     padding: 0;
     /* overflow-x: hidden; */
-    background-color: whitesmoke;
+    background-color: black;
 }
 .Header{
     display: flex;
     padding: 5%;
-    background-color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0);
     align-items: center;
     object-position: center;
     justify-content: center;
     height: 30px;
-    border-bottom: 1px solid rgb(227, 227, 227);
+    /* border-bottom: 1px solid rgb(227, 227, 227); */
     content: '';
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
-    transition: height 0.5s ease-in-out;
+    /* transition: height 0.5s ease-in-out; */
    
 }
 .middle-section{
@@ -30,8 +30,8 @@ body{
     border-radius: 4px;
     text-decoration: none;
     font-size: 18px;
-    background-color: whitesmoke;
-    color: black;
+    /* background-color: black; */
+    color: white;
     margin:0 2px;
     font-family:'Courier New', Courier, monospace;
     font-style: italic;
@@ -42,36 +42,73 @@ body{
     
 }
 .Header a:hover{
-    background-color: #ddd;
-    color:black;
+    background-color: gray;
+    color: white;
     margin: 0 20px;
 }
 .vertical-line{
-    border-left: 1px solid black;
+    border-left: 1px solid white;
     height: 50px;
     margin: 0 5px;
 }
 
 .main-section{
     /* background-color: whitesmoke; */
-    margin-top: 20%;
+    /* margin-top: 20%; */
     display: flex;
     flex-direction: column;
-    padding: 5%;
-    
-    
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.background-img{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.background-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 .first-box{
+    display: flex;
+    /* padding: 5%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    align-items: center;
     flex: 1;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
-    background-color: whitesmoke;
-    height: 100vh;
-    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    color: white;
+    position: absolute;
+    max-width: 80%;
+    /* border-radius: 10px; */
+
  
 }
 .img-design{
-
+    flex: 1;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+/*    
+    
+    background-color: black;
+    height: 100vh;
+    text-align: center; */
+}
+.img-design img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 500px) {
