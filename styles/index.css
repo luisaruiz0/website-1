@@ -89,7 +89,7 @@ body{
     color: white;
     position: absolute;
     max-width: 80%;
-    /* border-radius: 10px; */
+    border-radius: 100px;
 
  
 }
@@ -110,6 +110,23 @@ body{
     object-fit: contain;
     border-radius: 10px;
 }
+.box2{
+    height: 100px;
+    width: 100px;
+    /* background-color: white; */
+    z-index: 1;
+    position: relative;
+    animation: load;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes load{
+    0%{background-color: rgb(20, 20, 20); left: 0;}
+    25%{background-color: rgb(40, 40, 40); left: 25%;}
+    50%{background-color: rgb(60, 60, 60); left: 50%;}
+    75%{background-color: rgb(80, 80, 80); left: 75%;}
+    100%{background-color: rgb(100, 100, 100); left: 100%;}
+}
 
 @media screen and (max-width: 500px) {
     .Header{
@@ -122,5 +139,9 @@ body{
     .vertical-line{
         height: 8px;
         margin: 0, 3px;
+    }
+    .img-design{
+        height: 50%;
+        width: 50%;
     }
 }
