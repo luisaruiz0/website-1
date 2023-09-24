@@ -90,6 +90,7 @@ body{
     position: absolute;
     max-width: 80%;
     border-radius: 100px;
+    
 
  
 }
@@ -127,7 +128,7 @@ body{
     z-index: 1;
     position: relative;
     animation: load;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
 }
 .box4{
@@ -137,10 +138,30 @@ body{
     z-index: 1;
     position: relative;
     animation: load;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 .box5{
+    height: 100px;
+    width: 100px;
+    /* background-color: white; */
+    z-index: 1;
+    position: relative;
+    animation: load;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.box6{
+    height: 100px;
+    width: 100px;
+    /* background-color: white; */
+    z-index: 1;
+    position: relative;
+    animation: load;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.box7{
     height: 100px;
     width: 100px;
     /* background-color: white; */
@@ -173,8 +194,9 @@ body{
     .img-design{
         height: 50%;
         width: 50%;
+        
     }
-    .box2,.box3,.box4,.box5{
+    .box2,.box3,.box4,.box5,.box6,.box7{
         height: 50px;
         width: 50px;
     }
