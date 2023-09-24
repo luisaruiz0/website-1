@@ -117,7 +117,37 @@ body{
     z-index: 1;
     position: relative;
     animation: load;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    /* background-color: white; */
+    z-index: 1;
+    position: relative;
+    animation: load;
     animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    /* background-color: white; */
+    z-index: 1;
+    position: relative;
+    animation: load;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    /* background-color: white; */
+    z-index: 1;
+    position: relative;
+    animation: load;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 @keyframes load{
@@ -143,5 +173,9 @@ body{
     .img-design{
         height: 50%;
         width: 50%;
+    }
+    .box2,.box3,.box4,.box5{
+        height: 50px;
+        width: 50px;
     }
 }
