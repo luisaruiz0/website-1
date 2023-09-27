@@ -226,6 +226,7 @@ body{
     flex:  1;
     flex-direction: column;
     background-color: rgb(71, 71, 71);
+    color:white;
 }
 .object2:hover{
  
