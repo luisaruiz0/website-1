@@ -122,6 +122,9 @@ body{
     animation: load;
     animation-duration: 30s;
     animation-iteration-count: infinite;
+    border-color: rgb(255, 255, 255);
+    border-right-style: solid;
+
 }
 .box3{
     height: 100px;
@@ -132,6 +135,8 @@ body{
     animation: load;
     animation-duration: 25s;
     animation-iteration-count: infinite;
+    border-color: rgb(255, 255, 255);
+    border-left-style: solid;
 }
 .box4{
     height: 100px;
@@ -142,6 +147,8 @@ body{
     animation: load;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    border-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
 }
 .box5{
     height: 100px;
@@ -152,6 +159,9 @@ body{
     animation: load;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    border-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    
 }
 .box6{
     height: 100px;
@@ -162,6 +172,8 @@ body{
     animation: load;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    border-color: rgb(255, 255, 255);
+    border-top-style: solid;
 }
 .box7{
     height: 100px;
@@ -172,6 +184,8 @@ body{
     animation: load;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    border-color: rgb(255, 255, 255);
+    border-left-style: solid;
 }
 @keyframes load{
     0%{background-color: rgb(20, 20, 20); left: 0;}
@@ -179,6 +193,37 @@ body{
     50%{background-color: rgb(60, 60, 60); left: 50%;}
     75%{background-color: rgb(80, 80, 80); left: 75%;}
     100%{background-color: rgb(100, 100, 100); left: 100%;}
+}
+/* second page */
+.body-img{
+    display: flex;
+    background-color: rgb(46, 46, 46);
+    height: 60vh;
+    width: 100%;
+    margin-top: 30%;
+   
+}
+
+.img-object{
+    flex: 1;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+}
+.img-object:hover {
+    
+    flex: 3;
+}
+.object2{
+    flex:  1;
+    flex-direction: column;
+    background-color: rgb(71, 71, 71);
+}
+.object2:hover{
+ 
+    flex: 3;
 }
 
 @media screen and (max-width: 500px) {
@@ -201,5 +246,9 @@ body{
     .box2,.box3,.box4,.box5,.box6,.box7{
         height: 50px;
         width: 50px;
+    }
+    .body-img{
+        max-width: 25%;
+        max-height: 25%;
     }
 }
